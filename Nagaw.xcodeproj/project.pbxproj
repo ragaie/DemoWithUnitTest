@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1E07862236FE6A00E02ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */; };
+		DF1E07882236FE6A00E02ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07872236FE6A00E02ED1 /* ViewController.swift */; };
+		DF1E078B2236FE6A00E02ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1E07892236FE6A00E02ED1 /* Main.storyboard */; };
+		DF1E078E2236FE6A00E02ED1 /* Nagaw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */; };
+		DF1E07902236FE6B00E02ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */; };
+		DF1E07932236FE6B00E02ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1E07912236FE6B00E02ED1 /* LaunchScreen.storyboard */; };
+		DF1E079E2236FE6C00E02ED1 /* NagawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1E079A2236FE6C00E02ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1E077A2236FE6A00E02ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1E07812236FE6A00E02ED1;
+			remoteInfo = Nagaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF1E07822236FE6A00E02ED1 /* Nagaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nagaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF1E07872236FE6A00E02ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF1E078A2236FE6A00E02ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1E078D2236FE6A00E02ED1 /* Nagaw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nagaw.xcdatamodel; sourceTree = "<group>"; };
+		DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1E07922236FE6B00E02ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1E07942236FE6B00E02ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1E07992236FE6C00E02ED1 /* NagawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NagawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagawTests.swift; sourceTree = "<group>"; };
+		DF1E079F2236FE6C00E02ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1E077F2236FE6A00E02ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1E07962236FE6C00E02ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1E07792236FE6A00E02ED1 = {
+			isa = PBXGroup;
+			children = (
+				DF1E07842236FE6A00E02ED1 /* Nagaw */,
+				DF1E079C2236FE6C00E02ED1 /* NagawTests */,
+				DF1E07832236FE6A00E02ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1E07832236FE6A00E02ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E07822236FE6A00E02ED1 /* Nagaw.app */,
+				DF1E07992236FE6C00E02ED1 /* NagawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1E07842236FE6A00E02ED1 /* Nagaw */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */,
+				DF1E07872236FE6A00E02ED1 /* ViewController.swift */,
+				DF1E07892236FE6A00E02ED1 /* Main.storyboard */,
+				DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */,
+				DF1E07912236FE6B00E02ED1 /* LaunchScreen.storyboard */,
+				DF1E07942236FE6B00E02ED1 /* Info.plist */,
+				DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */,
+			);
+			path = Nagaw;
+			sourceTree = "<group>";
+		};
+		DF1E079C2236FE6C00E02ED1 /* NagawTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */,
+				DF1E079F2236FE6C00E02ED1 /* Info.plist */,
+			);
+			path = NagawTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF1E07812236FE6A00E02ED1 /* Nagaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1E07A22236FE6C00E02ED1 /* Build configuration list for PBXNativeTarget "Nagaw" */;
+			buildPhases = (
+				DF1E077E2236FE6A00E02ED1 /* Sources */,
+				DF1E077F2236FE6A00E02ED1 /* Frameworks */,
+				DF1E07802236FE6A00E02ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nagaw;
+			productName = Nagaw;
+			productReference = DF1E07822236FE6A00E02ED1 /* Nagaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF1E07982236FE6C00E02ED1 /* NagawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1E07A52236FE6C00E02ED1 /* Build configuration list for PBXNativeTarget "NagawTests" */;
+			buildPhases = (
+				DF1E07952236FE6C00E02ED1 /* Sources */,
+				DF1E07962236FE6C00E02ED1 /* Frameworks */,
+				DF1E07972236FE6C00E02ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1E079B2236FE6C00E02ED1 /* PBXTargetDependency */,
+			);
+			name = NagawTests;
+			productName = NagawTests;
+			productReference = DF1E07992236FE6C00E02ED1 /* NagawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1E077A2236FE6A00E02ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ragaie Alfy";
+				TargetAttributes = {
+					DF1E07812236FE6A00E02ED1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DF1E07982236FE6C00E02ED1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DF1E07812236FE6A00E02ED1;
+					};
+				};
+			};
+			buildConfigurationList = DF1E077D2236FE6A00E02ED1 /* Build configuration list for PBXProject "Nagaw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1E07792236FE6A00E02ED1;
+			productRefGroup = DF1E07832236FE6A00E02ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF1E07812236FE6A00E02ED1 /* Nagaw */,
+				DF1E07982236FE6C00E02ED1 /* NagawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF1E07802236FE6A00E02ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1E07932236FE6B00E02ED1 /* LaunchScreen.storyboard in Resources */,
+				DF1E07902236FE6B00E02ED1 /* Assets.xcassets in Resources */,
+				DF1E078B2236FE6A00E02ED1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1E07972236FE6C00E02ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1E077E2236FE6A00E02ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1E07882236FE6A00E02ED1 /* ViewController.swift in Sources */,
+				DF1E078E2236FE6A00E02ED1 /* Nagaw.xcdatamodeld in Sources */,
+				DF1E07862236FE6A00E02ED1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1E07952236FE6C00E02ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1E079E2236FE6C00E02ED1 /* NagawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF1E079B2236FE6C00E02ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1E07812236FE6A00E02ED1 /* Nagaw */;
+			targetProxy = DF1E079A2236FE6C00E02ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF1E07892236FE6A00E02ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1E078A2236FE6A00E02ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1E07912236FE6B00E02ED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1E07922236FE6B00E02ED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF1E07A02236FE6C00E02ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF1E07A12236FE6C00E02ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1E07A32236FE6C00E02ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nagaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RA.Nagaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF1E07A42236FE6C00E02ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nagaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RA.Nagaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF1E07A62236FE6C00E02ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NagawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RA.NagawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagaw.app/Nagaw";
+			};
+			name = Debug;
+		};
+		DF1E07A72236FE6C00E02ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NagawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RA.NagawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagaw.app/Nagaw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1E077D2236FE6A00E02ED1 /* Build configuration list for PBXProject "Nagaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1E07A02236FE6C00E02ED1 /* Debug */,
+				DF1E07A12236FE6C00E02ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1E07A22236FE6C00E02ED1 /* Build configuration list for PBXNativeTarget "Nagaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1E07A32236FE6C00E02ED1 /* Debug */,
+				DF1E07A42236FE6C00E02ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1E07A52236FE6C00E02ED1 /* Build configuration list for PBXNativeTarget "NagawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1E07A62236FE6C00E02ED1 /* Debug */,
+				DF1E07A72236FE6C00E02ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF1E078D2236FE6A00E02ED1 /* Nagaw.xcdatamodel */,
+			);
+			currentVersion = DF1E078D2236FE6A00E02ED1 /* Nagaw.xcdatamodel */;
+			path = Nagaw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF1E077A2236FE6A00E02ED1 /* Project object */;
+}
