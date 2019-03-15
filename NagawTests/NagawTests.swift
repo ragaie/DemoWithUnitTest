@@ -16,18 +16,18 @@ class NagawTests: XCTestCase {
     
     
     var repoListView : RepoListView!
-    
-    var modelLayer : RepoListModel!
     var repoController : RepoListController!
+    var modelLayer : RepoListModel!
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
         repoListView =   UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RepoListScreenID") as? RepoListView
         repoListView.loadView()
         
-
-        modelLayer = RepoListModel()
         repoController = RepoListController()
+        modelLayer = RepoListModel()
+        
         repoListView.reposTableView.delegate = repoController
         repoListView.reposTableView.dataSource = repoController
         repoController.myView = repoListView
@@ -41,6 +41,7 @@ class NagawTests: XCTestCase {
         
         repoListView = nil
         repoController = nil
+        modelLayer = nil
     }
 
  
@@ -83,14 +84,14 @@ class NagawTests: XCTestCase {
         repo.full_name = "dfsfsdf"
         repo.fork = false
         
-        modelLayer.dataList = [repo]
+        modelLayer.dataList = [repo,repo,repo]
         
       //  modelLayer.getRepoData()
         let tableView = repoController.myView!.reposTableView
         tableView?.reloadData()
         
         // Check the number of table rows
-        XCTAssertEqual(1, tableView?.dataSource?.tableView(tableView!, numberOfRowsInSection: 0))
+        XCTAssertEqual(3, tableView?.dataSource?.tableView(tableView!, numberOfRowsInSection: 0))
         
         // Check label text of the cell in the first row
         let indexPath = IndexPath.init(row: 0, section: 0)
@@ -101,7 +102,7 @@ class NagawTests: XCTestCase {
     
     
     
-    
+    //MARK: test for model layer
   // test model layer 
     func testparseFunc() {
         
