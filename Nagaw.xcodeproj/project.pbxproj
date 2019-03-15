@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DF1E07862236FE6A00E02ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */; };
-		DF1E07882236FE6A00E02ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07872236FE6A00E02ED1 /* ViewController.swift */; };
+		DF1E07882236FE6A00E02ED1 /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07872236FE6A00E02ED1 /* RepoListView.swift */; };
 		DF1E078B2236FE6A00E02ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1E07892236FE6A00E02ED1 /* Main.storyboard */; };
 		DF1E078E2236FE6A00E02ED1 /* Nagaw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */; };
 		DF1E07902236FE6B00E02ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */; };
 		DF1E07932236FE6B00E02ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1E07912236FE6B00E02ED1 /* LaunchScreen.storyboard */; };
 		DF1E079E2236FE6C00E02ED1 /* NagawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */; };
+		DF1E07A9223702C400E02ED1 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07A8223702C400E02ED1 /* ServiceLayer.swift */; };
+		DF1E07AF22370A4200E02ED1 /* RepoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07AA2237039E00E02ED1 /* RepoListController.swift */; };
+		DF1E07B022370A7700E02ED1 /* RepoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07AC223703BE00E02ED1 /* RepoListModel.swift */; };
+		DF1E07B322370FEB00E02ED1 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07B222370FEB00E02ED1 /* Repo.swift */; };
+		DF1E07B6223713E700E02ED1 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1E07B5223713E700E02ED1 /* RepoTableViewCell.swift */; };
+		DF2B6A9022382CE900BEE77D /* DataBaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B6A8F22382CE800BEE77D /* DataBaseManger.swift */; };
+		DF2B6A92223843F300BEE77D /* RepoCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B6A91223843F300BEE77D /* RepoCD.swift */; };
+		DF2B6A942238472E00BEE77D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B6A932238472E00BEE77D /* Reachability.swift */; };
+		DF30A705223A867700862DAF /* CoreDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A704223A867700862DAF /* CoreDataTest.swift */; };
+		DF30A70A223A8ECE00862DAF /* Nagaw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */; };
+		DF30A70E223A9B7600862DAF /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = DF30A70D223A9B7600862DAF /* response.json */; };
+		DF30A713223A9E8C00862DAF /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = DF30A70D223A9B7600862DAF /* response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +41,7 @@
 /* Begin PBXFileReference section */
 		DF1E07822236FE6A00E02ED1 /* Nagaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nagaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF1E07872236FE6A00E02ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF1E07872236FE6A00E02ED1 /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
 		DF1E078A2236FE6A00E02ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF1E078D2236FE6A00E02ED1 /* Nagaw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nagaw.xcdatamodel; sourceTree = "<group>"; };
 		DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +50,16 @@
 		DF1E07992236FE6C00E02ED1 /* NagawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NagawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagawTests.swift; sourceTree = "<group>"; };
 		DF1E079F2236FE6C00E02ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1E07A8223702C400E02ED1 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		DF1E07AA2237039E00E02ED1 /* RepoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListController.swift; sourceTree = "<group>"; };
+		DF1E07AC223703BE00E02ED1 /* RepoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListModel.swift; sourceTree = "<group>"; };
+		DF1E07B222370FEB00E02ED1 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		DF1E07B5223713E700E02ED1 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		DF2B6A8F22382CE800BEE77D /* DataBaseManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManger.swift; sourceTree = "<group>"; };
+		DF2B6A91223843F300BEE77D /* RepoCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCD.swift; sourceTree = "<group>"; };
+		DF2B6A932238472E00BEE77D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DF30A704223A867700862DAF /* CoreDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTest.swift; sourceTree = "<group>"; };
+		DF30A70D223A9B7600862DAF /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +101,16 @@
 		DF1E07842236FE6A00E02ED1 /* Nagaw */ = {
 			isa = PBXGroup;
 			children = (
+				DF2B6A8E22382CC600BEE77D /* CoreData Layer */,
+				DF1E07B122370FC000E02ED1 /* object  */,
+				DF1E07AE223703C400E02ED1 /* view controllers */,
 				DF1E07852236FE6A00E02ED1 /* AppDelegate.swift */,
-				DF1E07872236FE6A00E02ED1 /* ViewController.swift */,
 				DF1E07892236FE6A00E02ED1 /* Main.storyboard */,
 				DF1E078F2236FE6B00E02ED1 /* Assets.xcassets */,
 				DF1E07912236FE6B00E02ED1 /* LaunchScreen.storyboard */,
 				DF1E07942236FE6B00E02ED1 /* Info.plist */,
 				DF1E078C2236FE6A00E02ED1 /* Nagaw.xcdatamodeld */,
+				DF1E07A8223702C400E02ED1 /* ServiceLayer.swift */,
 			);
 			path = Nagaw;
 			sourceTree = "<group>";
@@ -95,8 +120,47 @@
 			children = (
 				DF1E079D2236FE6C00E02ED1 /* NagawTests.swift */,
 				DF1E079F2236FE6C00E02ED1 /* Info.plist */,
+				DF30A704223A867700862DAF /* CoreDataTest.swift */,
+				DF30A70D223A9B7600862DAF /* response.json */,
 			);
 			path = NagawTests;
+			sourceTree = "<group>";
+		};
+		DF1E07AE223703C400E02ED1 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E07B4223713CB00E02ED1 /* cell */,
+				DF1E07872236FE6A00E02ED1 /* RepoListView.swift */,
+				DF1E07AA2237039E00E02ED1 /* RepoListController.swift */,
+				DF1E07AC223703BE00E02ED1 /* RepoListModel.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		DF1E07B122370FC000E02ED1 /* object  */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E07B222370FEB00E02ED1 /* Repo.swift */,
+				DF2B6A91223843F300BEE77D /* RepoCD.swift */,
+			);
+			path = "object ";
+			sourceTree = "<group>";
+		};
+		DF1E07B4223713CB00E02ED1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E07B5223713E700E02ED1 /* RepoTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DF2B6A8E22382CC600BEE77D /* CoreData Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DF2B6A8F22382CE800BEE77D /* DataBaseManger.swift */,
+				DF2B6A932238472E00BEE77D /* Reachability.swift */,
+			);
+			path = "CoreData Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF30A713223A9E8C00862DAF /* response.json in Resources */,
 				DF1E07932236FE6B00E02ED1 /* LaunchScreen.storyboard in Resources */,
 				DF1E07902236FE6B00E02ED1 /* Assets.xcassets in Resources */,
 				DF1E078B2236FE6A00E02ED1 /* Main.storyboard in Resources */,
@@ -190,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF30A70E223A9B7600862DAF /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1E07882236FE6A00E02ED1 /* ViewController.swift in Sources */,
+				DF1E07B322370FEB00E02ED1 /* Repo.swift in Sources */,
+				DF1E07882236FE6A00E02ED1 /* RepoListView.swift in Sources */,
 				DF1E078E2236FE6A00E02ED1 /* Nagaw.xcdatamodeld in Sources */,
+				DF2B6A9022382CE900BEE77D /* DataBaseManger.swift in Sources */,
+				DF1E07B6223713E700E02ED1 /* RepoTableViewCell.swift in Sources */,
 				DF1E07862236FE6A00E02ED1 /* AppDelegate.swift in Sources */,
+				DF1E07A9223702C400E02ED1 /* ServiceLayer.swift in Sources */,
+				DF2B6A942238472E00BEE77D /* Reachability.swift in Sources */,
+				DF1E07AF22370A4200E02ED1 /* RepoListController.swift in Sources */,
+				DF2B6A92223843F300BEE77D /* RepoCD.swift in Sources */,
+				DF1E07B022370A7700E02ED1 /* RepoListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF30A705223A867700862DAF /* CoreDataTest.swift in Sources */,
 				DF1E079E2236FE6C00E02ED1 /* NagawTests.swift in Sources */,
+				DF30A70A223A8ECE00862DAF /* Nagaw.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
